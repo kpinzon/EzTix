@@ -1,0 +1,65 @@
+<!--event page will have all the tickets available -->
+
+<div class="container">
+	<div class="row">
+		<!--adding selected venue on left    -->
+		<div class="col-md-6" style="border-right: 1px solid black">
+			<div>
+				<h2>{{currentEvent.name}}</h2>
+				<p>{{currentEvent.date}} - {{currentEvent.time}}</p>
+			</div>
+			<div>
+				<!-- List of events at Honda Center -->
+				<ul class="removeBullets" id="listOfEvents">
+					<li ng-repeat="ticket in ticketsInEvent | orderBy: 'price'" class="listofTickets">
+						<div class="row">
+							<div class="col-md-5">
+								<strong>Section:</strong> {{ticket.section}}<br>
+								<strong>Row:</strong> {{ticket.row}}<br>
+								<strong>Seat:</strong> {{ticket.seatNumber}}
+							</div>
+							<div class="col-md-3 fullHeight">
+								<strong>Price</strong><br>
+								{{ticket.price | currency}}
+
+							</div>
+							<div class="col-md-1">
+								<button class="btn btn-success" ng-click="addTicketToCartBtn(ticket)" ng-show="ticket.showButton"><i class="fa fa-plus" aria-hidden="true"></i></button>
+								<button class="btn btn-danger" ng-click="removeTicketFromCartBtn(ticket)" ng-show="!ticket.showButton"><i class="fa fa-minus" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</li>
+
+				</ul>
+
+			</div>
+
+		</div>
+		<!--adding right columns: venue info, select ticket -->
+		<div class="col-md-6 venuePhotoColumn">
+			<div>
+				<!--Info and photo-->
+				<div class="text-center">
+					<img ng-src="{{venueData[currentEvent.venue].seatingChart}}" alt="">
+				</div>
+				<div>
+					<!-- Summary of Venue -->
+					<h3 class="text-center">{{venueData[currentEvent.venue].name}}</h3>
+					<p>{{venueData[currentEvent.venue].summary}}</p>
+				</div>
+			</div>
+			<div style="border-top: 1px solid black" class="text-center">
+
+				<div>
+					<h3>Go To Cart</h3>
+					<div class="notification-icon">
+						<i class="fa fa-shopping-cart fa-5x" aria-hidden="true" ui-sref="cart" ng-click="clickCartFromEventPage()"><span class="badge">{{ ticketsInCart.length }}</span></i>
+					</div>
+				</div>
+				
+			</div>
+
+
+		</div>
+	</div>
+</div>

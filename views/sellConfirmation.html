@@ -1,0 +1,37 @@
+<div class="container">
+
+	<div class="row">
+		<div>
+			<h2>Success! You're ticket has been listed for sale. </h2>
+		</div>
+		<div>
+			Here's the ticket you listed:
+		</div>
+		<div>
+			<ul class="removeBullets">
+				<li ng-repeat="ticket in ticketsSoldThisOrder">
+					<div class="text-center">
+						<div>
+							<div>
+								<strong>{{ eventData[ticket.eventId].name }}</strong>
+							</div>
+							<div>
+								<span>{{ ticket.time }} - {{ ticket.date }}</span>
+							</div>
+						</div>
+						<div>
+							<span>Section: {{ ticket.section }}</span> <br>
+							<span>Row: {{ ticket.row }}</span><br>
+							<span>Seat Number: {{ ticket.seatNumber }}</span>
+						</div>
+						<div>
+							<span><strong>Price:</strong> {{ticket.price | currency}}</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+
+</div>

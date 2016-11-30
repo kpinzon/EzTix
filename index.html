@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>EZ Tix</title>
+	<script src="https://use.fontawesome.com/a46c08ba1b.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	<script src="https://unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+		crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+		crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="./css/styles.css" type="text/css">
+
+
+</head>
+
+<body ng-app="myApp" ng-controller="myController">
+
+  <div class="container-fluid">
+    <div><!--navbar-->
+      <nav class="navbar navbar-default navbar-fixed-top container-fluid">
+        <div class="container">
+					<div class="navbar-header">
+						<div class="navbar-brand">
+          		<span><a ui-sref="home">EZ Tix</a></span>
+						</div>
+					</div>
+					<div> <!-- navbar links -->
+						<ul class="nav navbar-nav pull-right">
+							<li ><a ui-sref="home">Buy</a></li>
+							<li><a ui-sref="myTickets">MyTickets</a></li>
+							<li><a ui-sref="sellHome">Sell Tickets</a></li>
+						</ul>
+					</div>
+        </div>
+      </nav>
+    </div> 
+  </div> <!-- Ending Nav Container  -->
+
+	
+<div ng-show="showPage" class="body">
+		<ui-view></ui-view>
+</div>
+
+	
+
+
+
+
+
+	<script src="./js/modules/app.js"></script>
+	<script src="./js/controllers/myController.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<div class="homeBackground">
+	<section class="row" id="header">
+		<div class="text-center" style="height: 400px" id="headlineHome">
+			<h2>Searching for tickets shouldn't be a pain.</h2>
+			<h4>EZ Tix takes the frustration out of buying tickets.</h4>
+		</div>
+		<div class="container-fluid home centered">
+			<div class="row">
+				<div id="searchText" class="col-md-12 text-center">
+					<h3>Search for Tickets</h3>
+				</div>
+				<div class="col-md-6">
+					<div class="text-center">
+						<label for="venueSelect">Search by Venue</label>
+					</div>
+					<div class="dropdown">
+						<!-- dropdown for venue -->
+						<button data-toggle="dropdown" class="btn btn-custom dropdown-toggle" type="button" id="venueSelectBtn" aria-haspopup="true"
+							aria-expanded="false">
+          Select Venue
+            <span class="caret"></span>
+        </button>
+						<ul class="dropdown-menu venuePerformerDD" aria-labelledby="venueSelectBtn">
+							<li class="homeSelectVenuePerformer" ng-repeat="venue in venueData | orderBy: 'name'" ng-click="selectVenue(venue)" ui-sref="venue">{{ venue.name }}</li>
+
+
+						</ul>
+					</div>
+
+
+				</div>
+				<div class="col-md-6">
+					<div class="text-center">
+						<label for="perfomerSelect">Search by Performer</label>
+					</div>
+					<div class="dropdown">
+						<!-- dropdown for performer -->
+						<button data-toggle="dropdown" class="btn btn-customBlue dropdown-toggle" type="button" id="performerSelectBtn"
+							aria-haspopup="true" aria-expanded="false">
+          Select Performer
+            	<span class="caret"></span>
+        		</button>
+						<ul class="dropdown-menu venuePerformerDD" aria-labelledby="performerSelectBtn">
+							<li class="homeSelectVenuePerformer" ng-repeat="performer in performerData | orderBy: 'name'" ng-click="selectPerformer(performer)" ui-sref="performer">{{ performer.name }}</li>
+						</ul>
+					</div>
+
+				</div>
+
+
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="howItWorks">
+		<div class="container">
+			<div class="row">
+				<div class="text-center sectionHeadline">
+					<h2>How It Works</h2>
+				</div>
+				<div class="col-md-4 text-center">
+					<div>
+						<h4>Step 1: Search by Performer or Venue</h4>
+					</div>
+					<div>
+						<img src="../MagnifyingGlass.png" alt="magnifyingGlass">
+					</div>
+					<div>
+						<p>EZ Tix makes it easy to search for the performers or venues you love, and see the tickets for those events.</p>
+					</div>
+				</div>
+				<div class="col-md-4 text-center">
+					<div>
+						<h4>Step 2: Select and View Tickets for an Event</h4>
+					</div>
+					<div>
+						<img src="../sportTicket.png" alt="sport ticket">
+					</div>
+					<div>
+						<p>Find tickets that fit your budget. Front row or last row. <br>EZ Tix has it.</p>
+					</div>
+				</div>
+				<div class="col-md-4 text-center">
+					<div>
+						<h4>Step 3: Purchase Tix and Enjoy the Event</h4>
+					</div>
+					<div>
+						<img src="../stadium.png" alt="sport ticket">
+					</div>
+					<div>
+						<p>Fast checkout will ensure you receive your tickets fast, plus all tickets have a money-back guarantee.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="text-center sectionHeadline">
+					<h2>About</h2>
+				</div>
+				<div class="text-center col-md-6 col-md-offset-3">
+					<span style="text-align:left">EZ Tix was created with love in sunny Orange County, California.
+					Finding tickets to sporting events takes time, and if you are
+					trying to find the best deal, it can be a pain.
+					EZ Tix was created as a project during my time at Redwood Code Academy.</span>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+</div>

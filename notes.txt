@@ -1,0 +1,56 @@
+ <ul>
+        <li>
+          <!--<div class="col-md-6">
+            <button> Buy </button>
+          </div>-->
+          <div class="col-md-6">
+            <div>
+            Row: A
+            </div>
+            <div>
+            Seat: 51<button> Buy </button>
+            </div>
+            <div>
+            Price: $34
+            </div>
+          </div>
+        </li>
+
+       
+      </ul>
+
+
+      // app.service('dataService', function ($http) {
+
+//     var self = this;
+
+//     this.jsonData = null;
+
+//     this.getData = function (callback) {
+
+//         if (this.jsonData == null) {
+//             $http.get("http://localhost:8080/js/data/eventData.json")
+//                 .then(function (response) {
+//                     self.jsonData = response.data;
+//                     callback(response.data);
+
+
+//                 })
+//         }
+
+//         else {
+//             callback(this.jsonData)
+//         }
+
+
+//     }
+
+
+
+
+
+// })
+
+Research:
+callback fxns
+services

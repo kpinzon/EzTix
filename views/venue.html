@@ -1,0 +1,50 @@
+<!--venue page will have all the events at that venue and a select for the event-->
+
+<div class="container">
+  <div class="row">
+    <!--adding selected venue on left    -->
+    <div class="col-md-6 border-right">
+      <div id="venueNameHeadline">
+       <h2> Events at {{currentVenue.name}} </h2>
+      </div>
+      <div> <!-- List of events at Honda Center -->
+        <ul class="removeBullets listOfEvents" id="listOfEvents">
+          <li id="eventsAtVenue" ng-repeat="event in currentVenueEvents | orderBy: 'date'" ng-if="event.tickets.length > 0">
+            <div class="row">
+              <div class="col-md-7">
+               <h4>{{event.name}}</h4>
+                <p>{{event.date}} - {{event.time}}</p>
+              </div>
+               <div class="col-md-2"> 
+               <span ng-repeat="ticket in event.tickets | orderBy:'price' | limitTo:1 ">Tickets from: {{ticket.price | currency}}</span>
+               
+               </div>
+               <div class="col-md-1">    
+                 <button class="btn btn-lightBlue itemButtonCenter" ng-click="selectEvent(event)" ui-sref="event">View Tickets</button>
+               </div>
+            </div>
+          </li>
+          
+          
+        </ul>
+
+      </div>
+      
+    </div>
+    <!--adding right columns: venue info, select ticket-->
+    <div class="col-md-6 venuePhotoColumn" >
+      <div id="venueSelectedInfo"> <!--Info and photo-->
+        <div>
+          <img ng-src="{{currentVenue.imgUrl}}" alt="">
+        </div>
+        <div> <!-- Summary of Venue -->
+          <div class="text-center">
+            <h3>{{currentVenue.name}}</h3>
+          </div>
+          <p>{{currentVenue.summary}}</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,240 @@
+{
+  "venue": [
+    {
+      "id": 0,
+      "name": "Honda Center",
+      "capacity": 18336,
+      "summary": "The Honda Center (formerly known as the Arrowhead Pond of Anaheim) is an indoor arena located in Anaheim, California. The arena is home to the Anaheim Ducks of the National Hockey League."
+    }
+  ],
+  "events": [
+    {
+      "id": 0,
+      "name": "Anaheim Ducks vs Los Angeles Kings",
+      "date": "10/31/2016",
+      "time": "7:05 PM",
+      "venue": 0,
+      "performer": 0,
+      "opponent": 1,
+      "tickets": [
+        {
+          "id": 0,
+          "date": "10/31/2016",
+          "category": "Sports",
+          "time": "7:05 PM",
+          "price": "20.00",
+          "seatNumber": 5,
+          "row": "F",
+          "section": 405
+        },
+        {
+          "id": 1,
+          "date": "10/31/2016",
+          "category": "Sports",
+          "time": "7:05 PM",
+          "price": "20.00",
+          "seatNumber": 5,
+          "row": "F",
+          "section": 405
+        }
+      ]
+    },
+    {
+       "id": 1,
+      "name": "St.Lucia presented by KROQ",
+      "date": "11/2/2016",
+      "time": "7:15 PM",
+      "venue": 0,
+      "performer": 0,
+      "opponent": 1,
+      "tickets": [
+        {
+          "id": 0,
+          "date": "11/2/2016",
+          "category": "Music",
+          "time": "7:05 PM",
+          "price": "20.00",
+          "seatNumber": 54,
+          "row": "F",
+          "section": 201
+        },
+        {
+          "id": 1,
+          "date": "11/2/2016",
+          "category": "Music",
+          "time": "7:15 PM",
+          "price": "30.00",
+          "seatNumber": 1,
+          "row": "A",
+          "section": 405
+        }
+      ]
+    }
+  ],
+  "performers": [
+    {
+
+    }
+  ]
+}
+
+// {
+//   "venue": [
+//     {
+//       "id": 0,
+//       "name": "Honda Center",
+//       "capacity": "18,336",
+//       "summary": "The Honda Center (formerly known as the Arrowhead Pond of Anaheim) is an indoor arena located in Anaheim, California. The arena is home to the Anaheim Ducks of the National Hockey League.",
+//       "events": [
+//         {
+//           "performer": {
+//             "id": 0,
+//             "name": "Anaheim Ducks",
+//             "summary": "The Anaheim Ducks are an American professional ice hockey team based in Anaheim, California. They are members of the Pacific Division of the Western Conference of the National Hockey League (NHL). Since their inception, the Ducks have played their home games at the Honda Center.bio"
+//           },
+//           "date": "10/31/2016",
+//           "time": "7:05 PM",
+//           "tickets": [
+//             {
+//               "id": 0,
+//               "date": "10/31/2016",
+//               "category": "Sports",
+//               "opponent": 2,
+//               "time": "7:05 PM",
+//               "price": "20.00",
+//               "seatNumber": 5,
+//               "row": "F",
+//               "section": 405
+//             },
+//             {
+//               "id": 1,
+//               "date": "10/31/2016",
+//               "time": "7:05 PM",
+//               "price": "60.00",
+//               "seatNumber": 12,
+//               "row": "A",
+//               "section": 322
+//             },
+//             {
+//               "id": 2,
+//               "date": "10/31/2016",
+//               "time": "7:05 PM",
+//               "price": "123.99",
+//               "seatNumber": 1,
+//               "row": "A",
+//               "section": 208
+//             }
+//           ]
+//         },
+//         {
+//           "performer": {
+//             "id": 1,
+//             "category": "Music",
+//             "opponent": null,
+//             "name": "St.Lucia",
+//             "summary": "Essentially the solo vehicle for singer/songwriter Jean-Philip Grobler, the Brooklyn-based St. Lucia make shimmery, '80s-influnced, synth-driven pop. In 2016, St. Lucia returned with their sophomore full-length album, Matter, which included the singles 'Dancing on Glass,' 'Physical,' and 'Love Somebody.'"
+//           },
+//           "date": "11/12/2016",
+//           "time": "8:15 PM",
+//           "tickets": [
+//             {
+//               "id": 0,
+//               "date": "11/12/2016",
+//               "time": "8:15 PM",
+//               "price": "85.00",
+//               "seatNumber": 19,
+//               "row": "D",
+//               "section": 201
+//             },
+//             {
+//               "id": 1,
+//               "date": "11/12/2016",
+//               "time": "8:15 PM",
+//               "price": "30.00",
+//               "seatNumber": 11,
+//               "row": "R",
+//               "section": 408
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "id": 1,
+//       "name": "Staples Center",
+//       "capacity": "21,000",
+//       "summary": "Staples Center is a multi-purpose sports arena in Downtown Los Angeles. Adjacent to the L.A. Live development, it is located next to the Los Angeles Convention Center complex along Figueroa Street.",
+//       "events": [
+//         {
+//           "performer": {
+//             "category": "Sports",
+//             "opponent": 0,
+//             "id": 2,
+//             "name": "Los Angeles Kings",
+//             "summary": "The Los Angeles Kings are a professional ice hockey team based in Los Angeles. They are members of the Pacific Division of the Western Conference of the National Hockey League."
+//           },
+//           "date": "11/02/2016",
+//           "time": "7:10 PM",
+//           "tickets": [
+//             {
+//               "id": 0,
+//               "date": "11/02/2016",
+//               "time": "7:10 PM",
+//               "price": "205.00",
+//               "seatNumber": 5,
+//               "row": "F",
+//               "section": 102
+//             },
+//             {
+//               "id": 1,
+//               "date": "11/02/2016",
+//               "time": "7:10 PM",
+//               "price": "60.00",
+//               "seatNumber": 17,
+//               "row": "R",
+//               "section": 323
+//             },
+//             {
+//               "id": 2,
+//               "date": "11/02/2016",
+//               "time": "7:10 PM",
+//               "price": "123.50",
+//               "seatNumber": 4,
+//               "row": "C",
+//               "section": 333
+//             }
+//           ]
+//         },
+//         {
+//           "performer": {
+//             "id": 1,
+//             "name": "St.Lucia",
+//             "summary": "Essentially the solo vehicle for singer/songwriter Jean-Philip Grobler, the Brooklyn-based St. Lucia make shimmery, '80s-influnced, synth-driven pop. In 2016, St. Lucia returned with their sophomore full-length album, Matter, which included the singles 'Dancing on Glass,' 'Physical,' and 'Love Somebody.'"
+//           },
+//           "date": "11/14/2016",
+//           "time": "8:30 PM",
+//           "tickets": [
+//             {
+//               "id": 0,
+//               "date": "11/14/2016",
+//               "time": "8:15 PM",
+//               "price": "90.00",
+//               "seatNumber": 11,
+//               "row": "A",
+//               "section": 114
+//             },
+//             {
+//               "id": 1,
+//               "date": "11/14/2016",
+//               "time": "8:15 PM",
+//               "price": "40.00",
+//               "seatNumber": 19,
+//               "row": "D",
+//               "section": 305
+//             }
+//           ]
+//         }
+//       ]
+//     }
+//   ]
+// }

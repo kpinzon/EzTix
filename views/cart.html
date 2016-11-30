@@ -1,0 +1,24 @@
+<div class="container">
+  <div>
+	  <h3 class="text-center"> Shopping Cart </h3>
+  </div>
+  <div class="listOfTicketsInCart text-center" >
+    <ul class="removeBullets">
+      <li ng-repeat="ticket in ticketsInCart" class="ticketsInCart">
+        <div>{{eventData[ticket.eventId].name}}</div>
+        <div>{{venueData[ticket.venueId].name}}
+        <div>
+        Price: {{ticket.price | currency}}, Seat {{ticket.seatNumber}}, Section {{ticket.section}}
+        </div>
+      </li>
+    </ul>
+    <div>
+      Total: {{ sumOfTicketsInCart | currency}}
+    </div>
+    <div>
+      <button ng-click="clickPurchaseBtn()" ui-sref="ticketConfirmation">Purchase</button>
+    </div>
+  </div>
+</div>
+
+</div>

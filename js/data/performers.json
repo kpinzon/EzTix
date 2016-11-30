@@ -1,0 +1,39 @@
+[
+  {
+    "id": 0,
+    "name": "Anaheim Ducks",
+    "imgUrl": "./images/ducks.jpg",
+    "events": [
+      0,3,4,5,6,7
+    ],
+    "summary": "The Anaheim Ducks are an American professional ice hockey team based in Anaheim, California. They are members of the Pacific Division of the Western Conference of the National Hockey League (NHL). Since their inception, the Ducks have played their home games at the Honda Center"
+  },
+  {
+    "id": 1,
+    "name": "Los Angeles Kings",
+    "imgUrl": "./images/kings.png",
+    "events": [
+      0,
+      2
+    ],
+    "summary": "The Los Angeles Kings are a professional ice hockey team based in Los Angeles. They are members of the Pacific Division of the Western Conference of the National Hockey League"
+  },
+  {
+    "id": 2,
+    "name": "St.Lucia",
+    "imgUrl": "./images/stlucia.jpg",
+    "events": [
+      1
+    ],
+    "summary": "Essentially the solo vehicle for singer/songwriter Jean-Philip Grobler, the Brooklyn-based St. Lucia make shimmery, '80s-influnced, synth-driven pop. In 2016, St. Lucia returned with their sophomore full-length album, Matter, which included the singles 'Dancing on Glass,' 'Physical,' and 'Love Somebody.'"
+  },
+  {
+    "id": 3,
+    "name": "Kanye West",
+    "imgUrl": "./images/kanye.jpg",
+    "events": [
+      8,9,10
+    ],
+    "summary": "Kanye Omari West is an American hip hop recording artist, songwriter, record producer, fashion designer, and entrepreneur."
+  }
+]

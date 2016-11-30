@@ -1,0 +1,68 @@
+<div class="container sellTicketPage">
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4">
+
+				<div class="form-group">
+					<!--Performer-->
+					<div>
+						<label for="performerSelect">Select the Performer For the Ticket You Want to Sell</label>
+					</div>
+					<div class="dropdown">
+						<button data-toggle="dropdown" class="btn btn-outline btn-primary dropdown-toggle" type="button" id="performerSelect" aria-haspopup="true"
+							aria-expanded="false">
+            <span ng-show="!showPerformerNameInSellBtn">Select Performer</span>
+            <span ng-show="showPerformerNameInSellBtn">{{performerSelectedSell.name}}</span>
+            <span class="caret"></span>
+          </button>
+						<ul class="dropdown-menu" aria-labelledby="performerSelectBtn">
+							<li class="dropdownList" ng-repeat="performer in performerData | orderBy: 'name'" ng-click="selectPerformerSell(performer)">{{ performer.name }}</li>
+						</ul>
+					</div>
+				</div>
+				<div class="form-group">
+					<!--Event-->
+					<div>
+						<label for="eventSelect">Select the Event For the Ticket</label>
+					</div>
+					<div class="dropdown">
+						<button data-toggle="dropdown" class="btn btn-outline btn-primary dropdown-toggle" type="button" id="performerSelect" aria-haspopup="true"
+							aria-expanded="false">
+            <span ng-show="!showEventNameInSellBtn">Select Event</span>
+            <span ng-show="showEventNameInSellBtn">{{selectedEventSellDropdown}}</span>
+            <span class="caret"></span>
+          </button>
+						<ul class="dropdown-menu" aria-labelledby="performerSelectBtn">
+							<li class="dropdownList" ng-repeat="event in performerSelectedEvents | orderBy: 'date'" ng-click="selectEventForSell(event)"> <strong>{{ event.name }}</strong><br> {{event.date}} - {{ venueData[event.venue].name}}</li>
+						</ul>
+					</div>
+				</div>
+				<div class="form-group">
+					<!--section-->
+					<label for="ticketSectionInput">Section</label>
+					<input type="number" class="form-control" id="ticketSectionInput" placeHolder="Enter Section Number" ng-model="sellTicketInfo.section" required>
+				</div>
+				<div class="form-group">
+					<!--row-->
+          <label for="ticketRowInput">Row</label>
+					<input type="text" class="form-control" id="ticketRowInput" placeHolder="Enter Row (Number or Letter)" ng-model="sellTicketInfo.row" maxlength="2" required>
+				
+				</div>
+				<div class="form-group">
+					<!--Seat Number-->
+          <label for="ticketSeatNumberInput">Seat Number</label>
+					<input type="number" class="form-control" id="ticketSeatNumberInput" placeHolder="Enter Seat Number" ng-model="sellTicketInfo.seatNumber" required>
+				
+				</div>
+				<div class="form-group">
+					<!--Price-->
+          <label for="ticketPriceInput">Price</label>
+					<input type="number" class="form-control" id="ticketPriceInput" placeHolder="Enter Price in Numbers" ng-model="sellTicketInfo.price" required step="any"> 
+				
+				</div>
+				<div>
+					<button ui-sref="sellConfirmation" ng-click="listTicketForSale()">List Ticket For Sale</button>
+				</div>
+
+		</div>
+	</div>
+</div>

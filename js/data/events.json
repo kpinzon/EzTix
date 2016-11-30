@@ -1,0 +1,462 @@
+[
+  {
+    "id": 0,
+    "name": "Los Angeles Kings at Anaheim Ducks",
+    "date": "10/31/2016",
+    "time": "7:05 PM",
+    "venue": 0,
+    "performer": 0,
+    "opponent": 1,
+    "tickets": [
+      {
+        "id": 0,
+        "date": "10/31/2016",
+        "category": "Sports",
+        "time": "7:05 PM",
+        "price": 60.00,
+        "seatNumber": 5,
+        "row": "F",
+        "section": 405,
+        "eventId": 0,
+        "venueId": 0,
+        "showButton": true
+      },
+      {
+        "id": 1,
+        "date": "10/31/2016",
+        "category": "Sports",
+        "time": "7:05 PM",
+        "price": 22.00,
+        "seatNumber": 5,
+        "row": "F",
+        "section": 405,
+        "eventId": 0,
+        "venueId": 0,
+        "showButton": true
+      },
+      {
+        "id": 2,
+        "date": "10/31/2016",
+        "category": "Sports",
+        "time": "7:05 PM",
+        "price": 99.00,
+        "seatNumber": 1,
+        "row": "A",
+        "section": 202,
+        "eventId": 0,
+        "venueId": 0,
+        "showButton": true
+      }
+      ,
+      {
+        "id": 3,
+        "date": "10/31/2016",
+        "category": "Sports",
+        "time": "7:05 PM",
+        "price": 150.00,
+        "seatNumber": 12,
+        "row": "D",
+        "section": 101,
+        "eventId": 0,
+        "venueId": 0,
+        "showButton": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "St.Lucia presented by KROQ",
+    "date": "11/02/2016",
+    "time": "7:15 PM",
+    "venue": 0,
+    "performer": 2,
+    "opponent": null,
+    "tickets": [
+      {
+        "id": 0,
+        "date": "11/02/2016",
+        "category": "Music",
+        "time": "7:05 PM",
+        "price": 50.00,
+        "seatNumber": 54,
+        "row": "F",
+        "section": 201,
+        "eventId": 1,
+        "venueId": 0,
+        "showButton": true
+      },
+      {
+        "id": 1,
+        "date": "11/02/2016",
+        "category": "Music",
+        "time": "7:15 PM",
+        "price": 30.00,
+        "seatNumber": 1,
+        "row": "A",
+        "section": 311,
+        "eventId": 1,
+        "venueId": 0,
+        "showButton": true
+      }
+      ,
+      {
+        "id": 2,
+        "date": "11/02/2016",
+        "category": "Music",
+        "time": "7:15 PM",
+        "price": 45.00,
+        "seatNumber": 2,
+        "row": "F",
+        "section": 204,
+        "eventId": 1,
+        "venueId": 0,
+        "showButton": true
+      }
+      ,
+      {
+        "id": 3,
+        "date": "11/02/2016",
+        "category": "Music",
+        "time": "7:15 PM",
+        "price": 58.88,
+        "seatNumber": 13,
+        "row": "G",
+        "section": 214,
+        "eventId": 1,
+        "venueId": 0,
+        "showButton": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Arizona Coyotoes at Los Angeles Kings",
+    "date": "11/4/2016",
+    "time": "7:30 PM",
+    "venue": 1,
+    "performer": 1,
+    "opponent": 3,
+    "tickets": [
+      {
+        "id": 0,
+        "date": "11/4/2016",
+        "category": "Sports",
+        "time": "7:30 PM",
+        "price": 54.22,
+        "seatNumber": 54,
+        "row": "F",
+        "section": 201,
+        "eventId": 2,
+        "venueId": 1,
+        "showButton": true
+      },
+      {
+        "id": 1,
+        "date": "11/4/2016",
+        "category": "Sports",
+        "time": "7:30 PM",
+        "price": 60.00,
+        "seatNumber": 12,
+        "row": "C",
+        "section": 405,
+        "eventId": 2,
+        "venueId": 1,
+        "showButton": true
+      }
+      ,
+      {
+        "id": 2,
+        "date": "11/4/2016",
+        "category": "Sports",
+        "time": "7:30 PM",
+        "price": 120.00,
+        "seatNumber": 2,
+        "row": "P",
+        "section": 219,
+        "eventId": 2,
+        "venueId": 1,
+        "showButton": true
+      },
+      {
+        "id": 3,
+        "date": "11/4/2016",
+        "category": "Sports",
+        "time": "7:30 PM",
+        "price": 19.99,
+        "seatNumber": 14,
+        "row": "P",
+        "section": 403,
+        "eventId": 2,
+        "venueId": 1,
+        "showButton": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Columbus Blue Jackets at Anaheim Ducks",
+    "date": "10/28/2016",
+    "time": "7:00 PM",
+    "venue": 0,
+    "performer": 0,
+    "tickets": [
+      {
+        "id": 0,
+        "date": "11/4/2016",
+        "category": "Sports",
+        "time": "7:30 PM",
+        "price": 54.22,
+        "seatNumber": 1,
+        "row": "F",
+        "section": 201,
+        "eventId": 3,
+        "venueId": 0,
+        "showButton": true
+      },
+      {
+        "id": 1,
+        "date": "11/4/2016",
+        "category": "Sports",
+        "time": "7:30 PM",
+        "price": 28.55,
+        "seatNumber": 12,
+        "row": "S",
+        "section": 431,
+        "eventId": 3,
+        "venueId": 0,
+        "showButton": true
+      },
+      {
+        "id": 2,
+        "date": "11/4/2016",
+        "category": "Sports",
+        "time": "7:30 PM",
+        "price": 49.99,
+        "seatNumber": 3,
+        "row": "A",
+        "section": 414,
+        "eventId": 3,
+        "venueId": 0,
+        "showButton": true
+      },
+      {
+        "id": 3,
+        "date": "11/4/2016",
+        "category": "Sports",
+        "time": "7:30 PM",
+        "price": 156.66,
+        "seatNumber": 6,
+        "row": "F",
+        "section": 212,
+        "eventId": 3,
+        "venueId": 0,
+        "showButton": true
+      },
+      {
+        "id": 4,
+        "date": "11/4/2016",
+        "category": "Sports",
+        "time": "7:30 PM",
+        "price": 87.99,
+        "seatNumber": 15,
+        "row": "H",
+        "section": 312,
+        "eventId": 3,
+        "venueId": 0,
+        "showButton": true
+      },
+      {
+        "id": 5,
+        "date": "11/4/2016",
+        "category": "Sports",
+        "time": "7:30 PM",
+        "price": 64.00,
+        "seatNumber": 12,
+        "row": "A",
+        "section": 403,
+        "eventId": 3,
+        "venueId": 0,
+        "showButton": true
+      },
+      {
+        "id": 6,
+        "date": "11/4/2016",
+        "category": "Sports",
+        "time": "7:30 PM",
+        "price": 19.95,
+        "seatNumber": 1217,
+        "row": "U",
+        "section": 431,
+        "eventId": 3,
+        "venueId": 0,
+        "showButton": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Pittsburgh Penguins at Anaheim Ducks",
+    "date": "11/03/2016",
+    "time": "7:30 PM",
+    "venue": 0,
+    "performer": 0,
+    "tickets": [
+      {
+        "id": 0,
+        "date": "11/03/2016",
+        "time": "7:30 PM",
+        "price": 54.22,
+        "seatNumber": 54,
+        "row": "F",
+        "section": 201,
+        "eventId": 4,
+        "venueId": 0,
+        "showButton": true
+      },
+      {
+        "id": 0,
+        "date": "11/03/2016",
+        "time": "7:30 PM",
+        "price": 54.22,
+        "seatNumber": 54,
+        "row": "F",
+        "section": 201,
+        "eventId": 4,
+        "venueId": 0,
+        "showButton": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Arizona Coyotes at Anaheim Ducks",
+    "date": "11/05/2016",
+    "time": "7:30 PM",
+    "venue": 0,
+    "performer": 0,
+    "tickets": [
+      {
+        "id": 0,
+        "date": "11/05/2016",
+        "time": "7:30 PM",
+        "price": 54.22,
+        "seatNumber": 54,
+        "row": "F",
+        "section": 201,
+        "eventId": 5,
+        "venueId": 0,
+        "showButton": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Calgary Flames at Anaheim Ducks",
+    "date": "11/06/2016",
+    "time": "6:30 PM",
+    "venue": 0,
+    "performer": 0,
+    "tickets": [
+      {
+        "id": 0,
+        "date": "11/6/2016",
+        "time": "6:30 PM",
+        "price": 54.22,
+        "seatNumber": 54,
+        "row": "F",
+        "section": 201,
+        "eventId": 6,
+        "venueId": 0,
+        "showButton": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Edmonton Oilers at Anaheim Ducks",
+    "date": "11/15/2016",
+    "time": "7:00 PM",
+    "venue": 0,
+    "performer": 0,
+    "tickets": [
+      {
+        "id": 0,
+        "date": "11/15/2016",
+        "time": "7:00 PM",
+        "price": 54.22,
+        "seatNumber": 54,
+        "row": "F",
+        "section": 201,
+        "eventId": 7,
+        "venueId": 0,
+        "showButton": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Kanye West",
+    "date": "10/28/2016",
+    "time": "9:00 PM",
+    "venue": 2,
+    "performer": 3,
+    "tickets": [
+      {
+        "id": 0,
+        "date": "11/15/2016",
+        "time": "7:00 PM",
+        "price": 54.22,
+        "seatNumber": 54,
+        "row": "F",
+        "section": 201,
+        "eventId": 8,
+        "venueId": 2,
+        "showButton": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Kanye West",
+    "date": "11/15/2016",
+    "time": "8:00 PM",
+    "venue": 2,
+    "performer": 3,
+    "tickets": [
+      {
+        "id": 0,
+        "date": "11/15/2016",
+        "time": "7:00 PM",
+        "price": 54.22,
+        "seatNumber": 54,
+        "row": "F",
+        "section": 201,
+        "eventId": 9,
+        "venueId": 2,
+        "showButton": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Kanye West",
+    "date": "11/02/2016",
+    "time": "8:00 PM",
+    "venue": 0,
+    "performer": 3,
+    "tickets": [
+      {
+        "id": 0,
+        "date": "11/02/2016",
+        "time": "7:00 PM",
+        "price": 54.22,
+        "seatNumber": 54,
+        "row": "F",
+        "section": 201,
+        "eventId": 10,
+        "venueId": 0,
+        "showButton": true
+      }
+    ]
+  }
+]
